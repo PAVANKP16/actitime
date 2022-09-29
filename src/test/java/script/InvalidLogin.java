@@ -30,7 +30,7 @@ public class InvalidLogin extends BaseTest
 		
 //		4. Verify that error message is displayed
 		test.info("Verify that error message is displayed");
-		boolean result = loginPage.verifErrMsgIsDisplayed(wait);
+		boolean result = loginPage.verifyErrMsgIsDisplayed(wait);
 		Assert.assertTrue(result,"Err Msg is not displayed");
 		test.pass("Err Msg is Displayed");
 	}

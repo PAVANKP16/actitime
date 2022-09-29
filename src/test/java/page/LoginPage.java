@@ -38,7 +38,7 @@ public class LoginPage {
 	}
 	
 	
-	public boolean verifErrMsgIsDisplayed(WebDriverWait wait) {
+	public boolean verifyErrMsgIsDisplayed(WebDriverWait wait) {
 		try
 		{
 			wait.until(ExpectedConditions.visibilityOf(errMsg));
